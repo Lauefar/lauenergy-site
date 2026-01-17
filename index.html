@@ -1,98 +1,94 @@
-!doctype html
-html lang=en
-head
-  meta charset=utf-8 
-  meta name=viewport content=width=device-width,initial-scale=1 
-  titleLauEnergy Tradingtitle
-  meta name=description content=Independent Nordic Power Trading. 
-  link rel=stylesheet href=styles.css 
-head
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LauEnergy Trading</title>
+  <meta name="description" content="Independent Nordic Power Trading." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-body
-  header class=topbar
-    div class=brandLauEnergy Tradingdiv
-    nav class=nav
-      a href=#homeHomea
-      a href=#aboutAbouta
-      a class=cta href=#contactContacta
-    nav
-  header
+<body>
+  <header class="topbar">
+    <div class="brand">LauEnergy Trading</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a class="cta" href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  main
-    !-- HOME  HERO --
-    section id=home class=hero aria-label=Home
-      div class=hero__overlaydiv
+  <main>
+    <section id="home" class="hero" aria-label="Home">
+      <div class="hero__overlay"></div>
 
-      div class=hero__content
-        p class=kickerIndependent Nordic Power Tradingp
-        h1Fundamentalists trading imbalances.h1
-        p class=lead
+      <div class="hero__content">
+        <p class="kicker">Independent Nordic Power Trading</p>
+        <h1>Fundamentalists trading imbalances.</h1>
+        <p class="lead">
           Built from the ground up — with respect for theory, data, and how the physical power system
           actually behaves.
-        p
+        </p>
 
-        div class=hero__bullets
-          spanPhysical power tradingspan
-          spanSystem services & flexibilityspan
-          spanData-driven decision toolsspan
-        div
-      div
-    section
+        <div class="hero__bullets">
+          <span>Physical power trading</span>
+          <span>System services & flexibility</span>
+          <span>Data-driven decision tools</span>
+        </div>
+      </div>
+    </section>
 
-    !-- ABOUT --
-    section id=about class=section
-      div class=wrap
-        h2Who we areh2
-        p
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>Who we are</h2>
+        <p>
           We are a small, focused team that thrives on solving complex problems. We combine long-term
           experience from Nordic power markets with a hands-on engineering mindset — we like building
           the tools, not just the slides.
-        p
+        </p>
 
-        p
+        <p>
           Our work spans market analysis, forecasting, optimisation, and practical trading operations.
           We are especially strong in turning flexibility into market value — from thermal units and
           hydropower to wind, batteries and other flexible assets.
-        p
+        </p>
 
-        p class=note
+        <p class="note">
           We’re intentionally starting small. Think “basement workshop with serious ambitions” — but
           with disciplined risk management and respect for market rules.
-        p
-      div
-    section
+        </p>
+      </div>
+    </section>
 
-    !-- CONTACT --
-    section id=contact class=section section--tight
-      div class=wrap
-        h2Contacth2
-        div class=contact
-          div
-            div class=labelEmaildiv
-            a href=mailtolau@lauenergytrading.comlau@lauenergytrading.coma
-          div
-          div
-            div class=labelCountrydiv
-            divDenmarkdiv
-          div
-          div
-            div class=labelCompanydiv
-            divLauEnergy Trading ApSdiv
-          div
-        div
-      div
-    section
+    <section id="contact" class="section section--tight">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <div class="contact">
+          <div>
+            <div class="label">Email</div>
+            <a href="mailto:lau@lauenergytrading.com">lau@lauenergytrading.com</a>
+          </div>
+          <div>
+            <div class="label">Country</div>
+            <div>Denmark</div>
+          </div>
+          <div>
+            <div class="label">Company</div>
+            <div>LauEnergy Trading ApS</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    footer class=footer
-      div class=wrap
-        small© span id=yearspan LauEnergy Trading ApSsmall
-      div
-    footer
-  main
+    <footer class="footer">
+      <div class="wrap">
+        <small>© <span id="year"></span> LauEnergy Trading ApS</small>
+      </div>
+    </footer>
+  </main>
 
-  script
-    document.getElementById(year).textContent = new Date().getFullYear();
-  script
-body
-html
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
